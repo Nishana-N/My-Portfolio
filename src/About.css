@@ -1,0 +1,109 @@
+ .about--section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* padding: 100px 0; */
+    background-size: cover;
+    color: #fff;
+  }
+  
+  .hero--section--content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(50,50,50);
+    border-radius: 2rem;
+    
+  }
+
+  .hero--section--content--box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100%;
+    max-width: 1200px; */
+  }
+  
+  .hero--section--content {
+    flex: 1;
+  }
+  
+  .skills-section--heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero--section-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+  
+  .subheading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    margin-bottom: 10px;
+  }
+  
+  .cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+
+  .btn btn-github{
+    text-decoration: none;
+    color: white;
+  }
+
+  @media (max-width: 768px) {
+    .about--section {
+      padding: 50px 0;
+    }
+  
+    .hero--section--content h1 {
+      font-size: 2rem;
+    }
+  
+    .hero--section--content p {
+      font-size: 1rem;
+    }
+  } 
+
+
+  /* .about-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .about--section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  } */
+  
+  

@@ -1,0 +1,23 @@
+{
+    "project":[
+        {
+            "id":1,
+            "src":"Fruit shop.png",
+            "title":"HTML, CSS AND  JAVASCRIPT",
+            "description":"A fruit shop website is a digital platform designed to provide customers with a convenient and easy way to buy fresh fruits online. The website is a reflection of the physical fruit shop, showcasing the available fruits and vegetables, prices, and other related products"
+        },
+        {
+            "id":2,
+            "src":"Blood Bank.png",
+            "title":"Angular",
+            "description":"A Blood Bank Management System is a software application designed to automate the operations of a blood bank. It's primary responsibility is to design, develop, and maintain an efficient system that meets the specific needs of blood banks"
+
+        },
+        {
+            "id":3,
+            "src":"Book.png",
+            "title":"React.js",
+            "description":"Create a simple mini book website in React where you can display a list of book items with their names, images, and descriptions.Users can click on a search book to see more details, and you can also include a search feature to filter books"
+        }
+    ]
+}

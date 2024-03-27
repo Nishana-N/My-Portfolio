@@ -1,0 +1,67 @@
+.navbar {
+    background: #6e6ee3;
+    height: 5rem;
+    width: 100vh;
+    margin: 0 auto;
+    max-width: 75rem;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.title {
+    color: #0622ad;
+}
+
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+
+
+}
+
+.desktopMenuListItem:hover {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid greenyellow;
+
+
+}
+
+.desktopMenuBtn {
+    background: white;
+    color: black;
+    /* border-radius: 4rem; */
+    padding: 0.4rem 1rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+
+ @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    } 
+
+     .desktopMenu {
+        flex-direction: column;
+    }
+
+    .desktopMenuListItem {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .title {
+        margin-bottom: 1rem;
+    }
+
+    .desktopMenuBtn {
+        margin-top: 1rem;
+    }
+} 
